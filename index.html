@@ -1,190 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Julieta D. Rubis - Resume</title>
-  <script>
-            window.addEventListener('DOMContentLoaded', function () {                
-                var downloadLink = document.getElementById('download');
-                
-                                
-                /* 
-                    Add an event handler to the link, wich fires when you drag it
-                */
-                downloadLink.addEventListener('dragstart', function (event) {
-                    
-                    /* 
-                        DownloadURL indicates Chrome that this file/link should be a download file                       
-                        The actuall data is like <mimetype>:<filename>:<url>
-                        This was proposed here: http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2009-August/022118.html
-                    */
-                    
-                    
-                    event.dataTransfer.setData('DownloadURL', 'julietarubis.github.io/blob/05026970f918be5f3896b881e616455edbbd0598/Julieta%20Rubis%20-%20CV.pdf');
-                    
-                });
-            });
-        </script>        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Julieta D. Rubis - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Julieta D. Rubis</h1>
-    <nav>
-      <ul>
-        <li><a href="#summary">Summary</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#training">Training & Certificates</a></li>
-        <li><a href="#volunteer">Volunteer</a></li>
-        <li><a href="#references">References</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="contact">
-    <h2>Contact Information</h2>
-    <ul style="list-style: none;">
-      <li style="margin-bottom: 4px;">📧 julietarubis@gmail.com</li>
-      <li style="margin-bottom: 4px;">💼 <a href="https://www.linkedin.com/in/julietarubis/">LinkedIn</a></li>
-      <li style="margin-bottom: 4px;">🌐 <a href="https://github.com/julietarubis">GitHub</a></li>
-      <li style="margin-bottom: 4px;">🌐 <a href="https://virtualaisecretary.com">Project Portfolio</a></li>
-      <li style="margin-bottom: 4px;">🌐 <a href="https://www.youtube.com/channel/UCPquK6gCUDh63d74Wenvb2Q">YouTube Channel</a></li>
-    </ul>
-  </section>
-  
-  <section id="summary">
-    <h2>Summary</h2>
-    <p>My professional journey has been characterized by a strong foundation in Full-Stack Web Development, as evidenced by my work as a freelance Full-Stack Web Developer through my company, TechBotTronix Ltd. One of my notable achievements includes the successful development of Pine Lane Healthcare Company's website using PHP and MySQL, which led to a remarkable 75% increase in career promotion performance. Additionally, during my tenure at W.L Segovia, I leveraged my skills to create a Point of Sale (POS) system using the CodeIgniter PHP framework, resulting in a remarkable 96% increase in sales process efficiency and a significant reduction in errors. I also developed a hotel reservation content management system (CMS) on the WordPress platform, contributing to an 89% improvement in transaction processing. High-quality results within cross-functional teams. Committed to excellence in web development and data-driven insights.</p>
-  </section>
-  
-  <section id="education">
-    <h2>Education</h2>
-    <h3>Masters in Science in Data Analytics</h3>
-    <p>CCT College Dublin, Ireland | 2023 – 2024</p>
-    <h3>Cert/MSc in Artificial Intelligences</h3>
-    <p>University of Limerick, Ireland | 2023 – 2024</p>
-    <h3>Higher Diploma in Science in Artificial Intelligence Application</h3>
-    <p>CCT College Dublin, Ireland | 2022 – 2023</p>
-    <ul>
-      <li>Emphasizes strategic planning and implementation of Artificial Intelligence.</li>
-      <li>Hands-on experience in Python programming, machine learning, and data visualization.</li>
-    </ul>
-    <p>Projects:</p>
-    <ul>
-      <li>Airline Satisfaction analysis with supervised machine learning model.</li>
-      <li>Impact of league ranking on matches outcomes in major European football leagues using Machine learning algorithms.</li>
-      <li>Statistical analysis and trend of Ecommerce dataset. Using tools such Hadoop, MapReduce, HBase, SQL, Spark, and Python.</li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="intro">
+        <img src="images/profile.jpg" alt="Julieta D. Rubis">
+        <h1>Welcome to My Personal Website</h1>
+        <p>I am Julieta D. Rubis, an AI/ML Developer and Data Scientist based in Kildare, Ireland.</p>
+        <a href="about.html" class="btn">Learn More About Me</a>
+    </section>
 
-    <h3>Certificate in Software Engineering</h3>
-    <p>Technological University of the Shannon, Ireland | 2022 – 2022</p>
-    <ul>
-      <li>Hands-on experience in Java programming and collaborate in teams to design, develop, and deploy a software project</li>
-      <li>Emphasizes teamwork, communication, and the practical application of software engineering principles.</li>
-    </ul>
-    <p>Projects:</p>
-    <ul>
-      <li>Developed an application IT based system with Web-based access, will be used by two main groups: Customer and Staff. This application is for cooking summer camps using Java and MySOL for backend and frontend HTML,,CSS,,Bootstrap and JavaScript.</li>
-    </ul>
-
-    <h3>Higher Diploma in Science in Digital Marketing</h3>
-    <p>Dublin Business School, Ireland | 2020 – 2022</p>
-    <ul>
-      <li>Creating an impactful portfolio using marketing tools, integration techniques, and understanding of the evolving marketing technology landscape.</li>
-      <li>Hands-on experience with analytics tools, interpreting key performance indicators, and leveraging data to optimize campaigns.</li>
-    </ul>
-    <p>Projects:</p>
-    <ul>
-      <li>Compare and Contrast of Technology Platforms Digital Audit, Competitors Analysis for VavaVoom company and analyze the performance of a website using Google analytics.</li>
-      <li>Create content marketing using Spark Adobe for market research study AI Smart Tableware for Nursing Home.</li>
-      <li>Integrated Marketing Communications Plan: The Social Fabric Café.</li>
-    </ul>
-
-    <h3>Bachelor of Science in Information Technology</h3>
-    <p>Jose Rizal University, Philippines | 2005 – 2009</p>
-    <ul>
-      <li>I successfully developed a web-based payroll system using PHP and MySQL during an IT practicum.</li>
-      <li>Proficient in data structures and algorithms, with a deep understanding of programming foundations; adept in both Object-Oriented Programming and integrated software applications.</li>
-      <li>Creating visual and animated content for web-based platforms, using tools and frameworks to enhance user experience.</li>
-      <li>Comprehensive knowledge in computer system organization, emphasizing the synergy between hardware and software, bolstered by expertise in data communication and networking technologies.
-      </li>
-    </ul>
-  </section>
-  
-  <section id="experience">
-    <h2>Work Experience</h2>
-    <h3>Freelance Full-Stack Web Developer</h3>
-    <p>TechBotTronix Ltd. – Kildare | 2015 – Present</p>
-    <ul>
-      <li>Developed and deployed the TechBotTronix website using PHP with MySQL.</li>
-      <li>Developed a customized website for Adobo Dev using the WordPress platform.</li>
-      <li>Developed and deployed the Pine Lane Healthcare website using PHP and MySQL.
-      </li>
-      <li>Created a web application for Freight Services using Ruby on Rails with PostgreSQL deployed on Heroku server.</li>
-      <li>Developed digital marketing web application using Drupal with MySQL.</li>
-    </ul>
-
-    <h3>Web Developer</h3>
-    <p>W.L Segovia Inc. – Philippines | 2009 – 2014</p>
-    <ul>
-      <li>Developed a point-of-sale system integrated with the hotel restaurant using CodeIgniter.</li>
-      <li>Designed and deployed an online hotel reservation system using WordPress.</li>
-      <li>Developed the Segovia company website using PHP and MySQL, deployed on HostGator.
-      </li>
-      <li>Customized VT Campaign using the open-source VTiger.</li>
-      <li>Provided technical support for hardware issues and software installation.</li>
-    </ul>
-  </section>
-  
-  <section id="skills">
-    <h2>Key Skills</h2>
-    <ul>
-      <li>Programming Languages: Python, Java, PHP, Ruby on Rails, WordPress, Drupal, JavaScript, HTML, CSS, Bootstrap</li>
-      <li>Frameworks: Django, Spring Boot, CodeIgniter, React</li>
-      <li>Big Data Technologies: Hadoop, HBase, Apache Spark, Apache Flink, Apache Storm, Apache Pig, Apache Hive, Neo4j</li>
-      <li>Cloud Platforms: Google Cloud, AWS EC2</li>
-      <li>Databases: MySQL, Postgres, NoSQL</li>
-      <li>Tools: Google Colab, Jupyter Notebook, Photoshop, Google Analytics, Data Studio, GitHub, Bitbucket, Jira, JUnit Testing, Heroku, HostGator, Cisco Packet Tracer, Sublime</li>
-    </ul>
-  </section>
-  
-  <section id="training">
-    <h2>Training & Certificates</h2>
-    <ul>
-      <li>Front-End Development: Google Udacity Scholars, November 2017 – February 2018, Ireland</li>
-      <li>The Fundamentals of Digital Marketing: Google Digital Workshop, Ireland</li>
-      <li>Advanced Google Analytics: Google Analytics Academy, Jan. 2022, Ireland</li>
-      <li>Content Marketing: HubSpot Academy, Feb. 2022, Ireland</li>
-      <li>SEO: HubSpot Academy, Aug. 2021, Ireland</li>
-      <li>Email Marketing: HubSpot Academy, June 2021, Ireland</li>
-      <li>Advanced Web Development: Informatics Computer Institute of Technology, Philippines, 2012</li>
-      <li>PHP and MySQL II (Advanced) and Introduction to Oracle 10g PL/SQL - University of the Philippines Information Technology, 2011</li>
-    </ul>
-  </section>
-  
-  <section id="volunteer">
-    <h2>Volunteer</h2>
-    <p>April 2016 – Nov. 2016: CoderDojo Blanchardstown Library @Dublin 15</p>
-    <ul>
-      <li>Scratch Programming Club for kids (5-10 years old)</li>
-    </ul>
-  </section>
-  
-  <section id="references">
-    <h2>References</h2>
-    <p>Available upon request</p>
-  </section>
-
-  <section id="pdf">
-    <h1>Download PDF File from GitHub</h1>
-    <p>Click the button below to download the PDF file:</p>
-    <a href="julietarubis.github.io/blob/05026970f918be5f3896b881e616455edbbd0598/Julieta%20Rubis%20-%20CV.pdf" id="download">Download PDF</a> 
-  </section>
-  
-  <footer>
-    <p>&copy; 2023 Julieta D. Rubis | Email: julietarubis@gmail.com</p>
-  </footer>
+    <footer>
+        <p>&copy; 2024 Julieta D. Rubis. All rights reserved.</p>
+    </footer>
 </body>
 </html>
