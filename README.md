@@ -44,25 +44,25 @@
 ### AI-Powered Wind Turbine Anomaly Detection and Predictive Maintenance
 
 ## ACHIEVEMENTS
-•	Python for Data Science and AI – Issued by Coursera, Authorized by IBM, 2024
-•	Data Analytics Fundamentals – IBM Skills Build, 2024
-•	Excel Essentials for Data Analytics - Issued by Coursera, Authorized by IBM, 2024
-•	Python Basic - Hacker Rank, 2024
-•	Scholarship Recipient – Bord Na Mona, 2024
-•	Introduction to Machine Learning on AWS – 2023
-•	Advanced Google Analytics – By Google Academy, 2022 to 2025
-•	The Fundamentals of Digital Marketing – by Google Academy, 2022
-•	Content Marketing - by HubSpot Academy, 2022 to 2024
-•	SEO – by HubSpot Academy, 2021 to 2022
-•	Email Marketing – by HubSpot, 2021 to 2023
-•	Fundamentals of a Modern Data Strategy on AWS – by AWS, 2021
+- Python for Data Science and AI – Issued by Coursera, Authorized by IBM, 2024
+- Data Analytics Fundamentals – IBM Skills Build, 2024
+- Excel Essentials for Data Analytics - Issued by Coursera, Authorized by IBM, 2024
+- Python Basic - Hacker Rank, 2024
+- Scholarship Recipient – Bord Na Mona, 2024
+- Introduction to Machine Learning on AWS – 2023
+- Advanced Google Analytics – By Google Academy, 2022 to 2025
+- The Fundamentals of Digital Marketing – by Google Academy, 2022
+- Content Marketing - by HubSpot Academy, 2022 to 2024
+- SEO – by HubSpot Academy, 2021 to 2022
+- Email Marketing – by HubSpot, 2021 to 2023
+- Fundamentals of a Modern Data Strategy on AWS – by AWS, 2021
 
 ## COMMUNITY INVOLVEMENT
-•	Couple For Christ – Jan 2015, Present
-•	Google Developer Groups Portlaoise – 2024
-•	PyLadies – 2024
-•	PyData – 2024
-•	Data Women – 2024
-•	Techstars StartUp Weekend – 2023
-•	PyCon – 2023
+- Couple For Christ – Jan 2015, Present
+- Google Developer Groups Portlaoise – 2024
+- PyLadies – 2024
+- PyData – 2024
+- Data Women – 2024
+- Techstars StartUp Weekend – 2023
+- PyCon – 2023
 
